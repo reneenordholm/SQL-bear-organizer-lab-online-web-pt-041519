@@ -1,5 +1,5 @@
 def selects_all_female_bears_return_name_and_age
-  "SELECT gender FROM bears WHERE gender = 'F' ORDER by bears.name, bears.age;"
+  "SELECT bears.name, bears.age FROM bears WHERE gender = 'F' ORDER by bears.name, bears.age;"
 end
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
